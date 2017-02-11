@@ -1,0 +1,189 @@
+body {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: Raleway, sans-serif;
+  font-weight: 300;
+  color: #FFF;
+  background-color: #FB8B24;
+  /*border: 20px solid #B99C6D;*/
+}
+
+.images {
+  width: 100%;
+  height: 400px;
+  background-image: url('alachi-leaves.jpg');
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.left-arrow-icon {
+  position: absolute;
+  bottom: 200px;
+  left: 10px;
+}
+
+.right-arrow-icon {
+  position: absolute;
+  bottom: 200px;
+  right: 10px;
+}
+
+.open-circle {
+  position: absolute;
+  right: 60px;
+  top: 10px;
+}
+
+.first-open-dot {
+  position: absolute;
+  right: 45px;
+  top: 10px;
+}
+
+.second-open-dot {
+  position: absolute;
+  right: 30px;
+  top: 10px;
+}
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.profile {
+  display: flex;
+  width: 100%;
+  min-height: 200px;
+  background-color: #FB8B24;
+  flex-direction: column;
+}
+
+.title {
+  padding: 40px 0 5px 20px;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+p {
+  padding: 10px 5px 10px 20px;
+  font-size: 14px;
+  line-height: 140%
+}
+
+button {
+  padding: 10px 16px;
+  margin-right: 8px;
+  color: #FFF;
+  background-color: #FB8B24;
+  border: 2px solid #FFF;
+  color: #FFF;
+  font-family: Raleway;
+  font-size: 12px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 200px;
+  color: #FFF;
+}
+
+.small-icon {
+  width: 14px;
+  margin-right: 5px;
+}
+.first-button{
+  margin-left: 20px;
+}
+
+.icon {
+  margin-bottom: 10px;
+}
+
+.blog {
+  background-color: #550527;
+}
+
+.tips {
+  background-color: #688E26;
+}
+
+.resources {
+  background-color: #F44708;
+}
+
+.laughs {
+  background-color: #A10702;
+}
+
+.hope {
+  background-color: #FB8B24;
+}
+
+.social {
+  background-color: #550527;
+}
+
+.store {
+  background-color: #688E26;
+}
+
+
+@media screen and (min-width: 440px) {
+
+.profile {
+  width: 100%;
+}
+
+.box{
+  width: 50%;
+}
+}
+
+
+@media screen and (min-width: 700px) {
+
+.images {
+  height: 550px;
+}
+
+.profile {
+  width: 66.6666%;
+}
+
+.box {
+  width: 33.3333%;
+}
+}
+
+
+@media screen and (min-width: 850px) {
+
+body {
+  flex-direction: row-reverse;
+}
+
+.images {
+  width: 40%;
+  height: 600px;
+}
+
+.boxes {
+  width: 60%;
+  height: 100vh;
+}
+
+.box {
+  width: 33.3333%;
+}
+
+.profile {
+  width: 66.6666%;
+}
+}
